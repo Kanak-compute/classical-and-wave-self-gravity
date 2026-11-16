@@ -1,0 +1,93 @@
+{
+  "quantum_max_mass_error_pct": 2.8599345114344026e-11,
+  "quantum_max_energy_error_pct": 0.003326963212907916,
+  "quantum_grid_difference_pct": 0.0030909971296196334,
+  "quantum_timestep_orders": [
+    1.9998158449045824,
+    1.9998158449045824
+  ],
+  "max_free_gaussian_error_pct": 0.0828045374233266,
+  "classical_max_energy_error_pct": 0.3419435143502762,
+  "classical_max_mass_error_pct": 4.440892098500626e-14,
+  "classical_final_radius_mean": 0.494983608896173,
+  "classical_final_radius_sd": 0.002961092253948116,
+  "crossover_supported": true,
+  "entropy_signs_stable": true,
+  "max_temperature_drift_pct": 21.86699274032698,
+  "heat_capacity_equilibrium_confirmed": false,
+  "sampling_results": {
+    "0.4": {
+      "grid_delta": -1.105885120889555,
+      "sampled_delta": -1.117716637681092
+    },
+    "0.55": {
+      "grid_delta": 0.03570992902773096,
+      "sampled_delta": 0.008581304013012492
+    },
+    "0.7": {
+      "grid_delta": 0.9266531079887605,
+      "sampled_delta": 0.8821666722484545
+    },
+    "0.85": {
+      "grid_delta": 1.6062331646578447,
+      "sampled_delta": 1.5276060347901974
+    }
+  },
+  "checks": [
+    [
+      "Mass conservation",
+      true,
+      "Maximum mass error = 2.8599e-11%"
+    ],
+    [
+      "Energy conservation",
+      true,
+      "Maximum energy error = 0.003327%"
+    ],
+    [
+      "Spatial-grid convergence",
+      true,
+      "Maximum 48^3 vs 64^3 difference = 0.003091%"
+    ],
+    [
+      "Time-step convergence of final RMS radius",
+      true,
+      "Richardson order from R/R0 = 2.000; coarse/fine differences = 2.097e-05, 5.244e-06"
+    ],
+    [
+      "Free Gaussian analytical agreement",
+      true,
+      "Maximum relative error = 0.082805%"
+    ],
+    [
+      "Classical mass conservation",
+      true,
+      "Maximum mass error = 4.4409e-14%"
+    ],
+    [
+      "Preliminary classical energy accuracy",
+      true,
+      "Maximum energy error = 0.341944%"
+    ],
+    [
+      "Finite-time contraction/expansion crossover",
+      true,
+      "Crossover bracketed between hbar=0.40 and hbar=0.55 at simulated time t=3."
+    ],
+    [
+      "Classical spatial-entropy decrease",
+      true,
+      "Negative change across tested coarse-graining grids."
+    ],
+    [
+      "Quantum 0.40 spatial-entropy decrease",
+      true,
+      "Negative change across tested grids."
+    ],
+    [
+      "Quantum 0.85 spatial-entropy increase",
+      true,
+      "Positive change across tested grids."
+    ]
+  ]
+}

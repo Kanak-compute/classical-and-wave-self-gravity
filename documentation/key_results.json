@@ -1,0 +1,15 @@
+{
+  "model": "dimensionless Newtonian Schr\u00f6dinger\u2013Poisson, periodic box",
+  "effective_hbar": 0.55,
+  "final_time": 3.0,
+  "rms_radius_final_over_initial": 1.030831115045753,
+  "fixed_core_fraction_final_over_initial": 1.215668875219664,
+  "grid_48_vs_64_core_relative_difference_percent": 0.15747347749175689,
+  "core_defined_by": "radius <= initial Gaussian sigma",
+  "heat_capacity_equilibrium_confirmed": false,
+  "phase_transition_claimed": false,
+  "max_kinetic_matched_pm_energy_error_percent": 0.03396370761241326,
+  "periodic_wave_audit_checks_passed": 6,
+  "periodic_wave_audit_checks_total": 6,
+  "full_run_rechecked_on_current_revision": "Must execute all cells in fresh runtime"
+}
